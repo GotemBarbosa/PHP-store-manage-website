@@ -1,0 +1,92 @@
+.title {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .title h1 {
+    font-size: 30px;
+  }
+  
+  .addUsers {
+    text-decoration: none;
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    z-index: 2;
+  }
+  
+  .content{
+    display: flex;
+    justify-content: center;
+  }
+  
+  .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #formDados #inputItens{
+    display: flex;
+    flex-direction: column;
+  }
+  #formDados #inputItens label{
+    margin-bottom: 10px;
+  }
+  #formDados #inputItens input{
+    margin-bottom: 5px;
+  }
+  #btnEnviar{
+    background-color: rgb(47, 255, 116);
+    border: 1px solid rgb(143, 143, 143);
+    height: 35px;
+    width: 170px;
+    border-radius: 8px;
+  }
+
+  #btnEnviar:hover{
+    cursor: pointer;
+    background-color: rgb(38, 209, 95);
+  }
+
+
+  .styled-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  }
+
+  .styled-table thead tr {
+    background-color: #003f98;
+    color: #ffffff;
+    text-align: left;
+  }
+  .styled-table th,
+  .styled-table td {
+      padding: 12px 15px;
+  }
+  .styled-table tbody tr {
+    border-bottom: thin solid #dddddd;
+  }
+
+  .styled-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+  }
+
+  .styled-table tbody tr:last-of-type {
+    border-bottom: 2px solid #003f98;
+    /* #009879 */
+  }
+  .styled-table tbody tr td .clientImg{
+  max-width: 150px;
+  }
+  
+
+  .functionButton{
+    height: 35px;
+    width: 35px;
+  }

@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@100;300;500;600&display=swap");
+
+* {
+  margin: 0;
+}
+
+body {
+  font-family: "Lexend", sans-serif;
+  flex: 1,
+}
+
+header {
+  margin-bottom: 35px;
+}
+.headerImg {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  object-position: center;
+}
+nav {
+  height: 60px;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  box-shadow: 3px 3px 5px 6px #ccc;
+  border-bottom: 2px solid black;
+}
+
+nav ul {
+  width: 100vw;
+}
+nav ul li {
+  display: inline;
+  padding: 0 0px 0 0;
+  margin-left: 0;
+}
+
+nav ul li .item {
+  text-decoration: none;
+  font-size: 18px;
+  margin-left: 9px;
+}
+.loginArea{
+  position: absolute;
+  top: 20px;
+  right: 10px;
+}
+
+#formLogin{
+  margin-top: 20px;
+  height: 20;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#formLogin label{
+  color: white;
+  font-size: 20px;
+}
+#formLogin .inputText{
+  border-radius: 10px;
+  height: 25px;
+  border: 0.5px solid black;
+  outline: none
+}
+#formLogin #btnLogin{
+  margin-top: 10px;
+  height: 30px;
+  width: 80px;
+  background-color: rgb(56, 236, 65);
+  border-radius: 10px;
+  border: 0.5px solid rgb(92, 92, 92);
+  color: white;
+}
+#formLogin #btnLogin:hover{
+  background-color: rgb(29, 156, 35);
+  cursor: pointer;
+}
+
+#logoffText{
+  color:white
+}
+
+
+article {
+  margin-bottom: 50px;
+}
+
+footer {
+  width: 100%;
+  height: 50px;
+  background-color: blue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer p {
+  font-size: 15px;
+  font-weight: bold;
+}
